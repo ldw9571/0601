@@ -41,6 +41,7 @@ public class PostApiController {
         return ResponseEntity
                 .ok()
                 .body(dto);
+
     }
 
     @GetMapping("/{id}")
