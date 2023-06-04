@@ -14,6 +14,8 @@ public interface StudentRepository
     List<Student> findByName(String name);
     List<Student> findByCityAndMajor(String city, String major);
 
+    List<Student>findByCity(String city);
+
     List<Student> findByMajorContaining(String major);
 
     // 네이티브 쿼리 사용
